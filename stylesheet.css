@@ -25,14 +25,15 @@ body{
     padding: 20px;
 }
 .container .target a{
-    position: initial;
+    position: inherit;
+    text-align: left;
 }
 
 .container a{
     color:#ff0000 ;
     position: inherit;
     text-align: center;
-    margin-left: 40%;
+    
 }
 
 label{

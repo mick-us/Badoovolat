@@ -32,16 +32,16 @@
             <option value="echangeDeProcedes">Échange de procédés</option>
             <option value="covoiturage">Covoiturage</option>
             <option value="troc">Troc</option>
-        </select><br/>
+        </select><br/><br>
         <label for="type">Type :</label><br/>
         <select id="type" name="type">
             <option value="">Choisir une option</option>
             <option value="cherche">Cherche</option>
             <option value="offre">Offre</option>
-        </select><br/>
+        </select><br/><br>
         <label for="annonce">Description de l'annonce :</label><br/>
         <textarea id="annonce" name="annonce" rows="10" cols="50" placeholder="Décrivez votre offre/demande."></textarea>
-        <br>
+        <br><br>
         <input type="reset" value="Réinitialisation">
         <input type="submit" value="Inscription"><br/>
         <br/>

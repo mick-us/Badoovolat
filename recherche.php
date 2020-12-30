@@ -28,13 +28,13 @@
     <option value="echangeDeProcedes">Échange de procédés</option>
     <option value="covoiturage">Covoiturage</option>
     <option value="troc">Troc</option>
-</select><br/>
-<label for="type">est ce une offre ou une demande ?</label><br>
+</select><br/><br>
+<label for="type">Est ce une offre ou une demande ?</label><br>
 <select id="type" name="type">
     <option value="">Choisir une option</option>
     <option value="cherche">Cherche</option>
     <option value="offre">Offre</option>
-</select><br/>
+</select><br/><br>
 <label for="ville">Où vous trouvez vous ?</label><br>
 <select id="ville" name="ville">
     <option value="">Choisir une option</option>

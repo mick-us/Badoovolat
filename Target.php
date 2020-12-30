@@ -24,12 +24,11 @@ $type=$_GET['type'];
 $annonce=$_GET['annonce'];
 if(empty($nom)||empty($prenom)||empty($ville)||empty($email)/*||ereg($motif, $email)==0*/||empty($categorie)||empty($type)||empty($annonce))
 {
-    print("Champs invalides !<br>Cliquez ici :");
-    echo'<a href="ajout.php">Page d\'Inscription</a>';
+    echo'<h3>Champs invalides !</h3>Cliquez ici :<a href="ajout.php">Page d\'Inscription</a>';
 }
 else {
     print("<h2> Vos informations :<br></h2>");
-    print("$nom<br>$prenom<br>$ville<br>$email<br>$categorie<br>$type<br>$annonce");
+    print("$nom<br>$prenom<br>$ville<br>$email<br>$categorie<br>$type<br>$annonce<br>");
     echo'<br><a href="recherche.php">recherche</a>';
 }
 /*$hote = 'localhost';
