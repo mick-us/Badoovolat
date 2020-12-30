@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-<h1><a href="index.php"><img src="logo.png">BADOOVOLAT</a></h1>
-<form action="">
+    <header>
+    <h1><a href="index.php"><img src="logo.png"><br>BADOOVOLAT</a></h1>
+</header>
+<div class="container">
+    <form action="">
     <label for="categorie">Quel catégorie cherchez vous ?</label><br>
 <select id="categorie" name="categorie">
     <option value="">Choisir une option</option>
@@ -40,5 +43,6 @@
     <option value="Strasbourg">Strasbourg</option>
 </select><br>
 <input type="submit" value="recherche">
+</div>
 </body>
 </html>

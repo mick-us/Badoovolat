@@ -8,11 +8,12 @@
 <body>
     <header>
         <div>
-            <h1><a href="index.php"><img src="logo.png">BADOOVOLAT</a></h1>
+            <h1><a href="index.php"><img src="logo.png"><br>BADOOVOLAT</a></h1>
         </div>
         <a href="ajout.php">Inscription</a>
     </header>
     <br/>
+    <div class="container">
     <h2>Inscription</h2>
     <form action="Target.php">
         <label for="nom" >Nom :</label>
@@ -51,5 +52,6 @@
         <input type="submit" value="Inscription"><br/>
         <br/>
     </form>
+</div>
 </body>
 </html>

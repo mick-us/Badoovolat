@@ -1,3 +1,18 @@
+header{
+    position: fixed;
+    left: 43%;
+    width: 50%;
+}
 body{
-    background-color: #FFFFFF;
+    background-color: #6833FF;
+    font-family: sans-serif;
+}
+.container{
+    position: absolute;
+    top:50%;
+    left:40%;
+    box-sizing: border-box;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 20px;
 }

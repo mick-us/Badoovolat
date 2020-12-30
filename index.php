@@ -7,9 +7,10 @@
 </head>
 <body>
     <header>
-    <h1><a href="index.php"><img src="logo.png">BADOOVOLAT</a></h1>
+    <h1><a href="index.php"><img src="logo.png"><br>BADOOVOLAT</a></h1>
     </header>
     <br/>
+    <div class="container">
     <form method="post" action="">
         <label for="email">Identification :</label>
         <input type="text" name="email" placeholder="your email"/>
@@ -30,6 +31,7 @@
             <li>Covoiturage</li>
             <li>Troc</li>
         </ul>
+    </div>
     </div>
 </body>
 </html>

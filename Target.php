@@ -6,7 +6,10 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-<h1><a href="index.php"><img src="logo.png">BADOOVOLAT</a></h1>
+    <header>
+    <h1><a href="index.php"><img src="logo.png"><br>BADOOVOLAT</a></h1>
+</header>
+<div class="container">
 <?php
 $motif="^[[:alnum:]]+@[[:alpha:]]+\.[[:alpha:]]{2,3}$";
 $nom=$_GET['nom'];
@@ -23,7 +26,7 @@ if(empty($nom)||empty($prenom)||empty($ville)||empty($email)/*||ereg($motif, $em
 }
 else {
     print("$nom<br>$prenom<br>$ville<br>$email<br>$categorie<br>$type<br>$annonce");
-    echo'<a href="recherche.php">recherche</a>';
+    echo'<br><a href="recherche.php">recherche</a>';
 }
 /*$hote = 'localhost';
 $login = 'root';
@@ -39,5 +42,6 @@ try {
     echo 'echec in connection:' . $e->getMessage();
 }*/
 ?> 
+</div>
 </body>
 </html>
