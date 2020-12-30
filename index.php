@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <header>
-    <h1><a href="index.php"><img src="logo.png"><br>BADOOVOLAT</a></h1>
-    </header>
+    <div class="header">
+        <header>
+            <h1><a href="index.php"><img src="logo.png"><br>BADOOVOLAT</a></h1>
+        </header>
+    </div>
     <br/>
     <div class="container">
     <form method="post" action="">

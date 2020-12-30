@@ -6,23 +6,18 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
+    <div class="header">
     <header>
-        <div>
-            <h1><a href="index.php"><img src="logo.png"><br>BADOOVOLAT</a></h1>
-        </div>
-        <a href="ajout.php">Inscription</a>
+        <h1><a href="index.php"><img src="logo.png"><br>BADOOVOLAT</a></h1>
     </header>
+    </div>
     <div class="container">
     <h2>Inscription</h2>
     <form action="Target.php">
-        <label for="nom" >Nom :</label>
-        <input type="text" id="nom" name="nom" placeholder="Dupond"><br/>
-        <label for="prenom">Prénom :</label>
-        <input type="text" id="prenom" name="prenom" placeholder="Jean"><br/>
-        <label for="ville">Ville :</label>
-        <input type="text" id="ville" name="ville" placeholder="Avignon"><br/>
-        <label for="email">Email :</label>
-        <input type="text" id="email" name="email" placeholder="jeandupond@squalala.com"><br/>
+        <label for="nom" >Nom :</label><input type="text" id="nom" name="nom" placeholder="Dupond"/><br/>
+        <label for="prenom">Prénom :</label><input type="text" id="prenom" name="prenom" placeholder="Jean"/><br/>
+        <label for="ville">Ville :</label><input type="text" id="ville" name="ville" placeholder="Avignon"/><br/>
+        <label for="email">Email :</label><input type="text" id="email" name="email" placeholder="jeandupond@squalala.com"/><br/>
         <br/>
         <label for="categorie">Catégorie :</label><br/>
         <select id="categorie" name="categorie">

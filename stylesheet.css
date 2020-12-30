@@ -2,11 +2,13 @@ html{
     height: 100%;
     width: 100%;
 }
-header{
-    color: orangered;
+.header{
     position: absolute;
     left: 43%;
     width: 50%;
+}
+.header a{
+    color: orangered;
 }
 body{
     background: linear-gradient(#6833FF,#660000);
@@ -31,4 +33,10 @@ body{
     position: inherit;
     text-align: center;
     margin-left: 40%;
+}
+
+label{
+    display: block;
+    width: 150px;
+    float: left;
 }
