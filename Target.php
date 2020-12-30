@@ -10,6 +10,7 @@
     <h1><a href="index.php"><img src="logo.png"><br>BADOOVOLAT</a></h1>
 </header>
 <div class="container">
+    <div class="target">
 <?php
 $motif="^[[:alnum:]]+@[[:alpha:]]+\.[[:alpha:]]{2,3}$";
 $nom=$_GET['nom'];
@@ -22,7 +23,7 @@ $annonce=$_GET['annonce'];
 if(empty($nom)||empty($prenom)||empty($ville)||empty($email)/*||ereg($motif, $email)==0*/||empty($categorie)||empty($type)||empty($annonce))
 {
     print("Champs invalides !<br>Cliquez ici :");
-    echo '<a href="ajout.php">Page d\'Inscription</a>';
+    echo'<a href="ajout.php">Page d\'Inscription</a>';
 }
 else {
     print("$nom<br>$prenom<br>$ville<br>$email<br>$categorie<br>$type<br>$annonce");
@@ -42,6 +43,7 @@ try {
     echo 'echec in connection:' . $e->getMessage();
 }*/
 ?> 
+</div>
 </div>
 </body>
 </html>

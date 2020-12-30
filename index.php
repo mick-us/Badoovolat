@@ -15,8 +15,10 @@
         <label for="email">Identification :</label>
         <input type="text" name="email" placeholder="your email"/>
         <input type="submit" value="Log in"/>
-    </form>
+    <br>
+    <br>
     <a href="Ajout.php">Inscription</a>
+     
     <div>
         <h2>Catégories :</h2>
         <ul>
@@ -32,6 +34,7 @@
             <li>Troc</li>
         </ul>
     </div>
+    </form>
     </div>
 </body>
 </html>

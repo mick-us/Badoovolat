@@ -12,7 +12,6 @@
         </div>
         <a href="ajout.php">Inscription</a>
     </header>
-    <br/>
     <div class="container">
     <h2>Inscription</h2>
     <form action="Target.php">

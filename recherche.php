@@ -41,7 +41,7 @@
     <option value="Bordeaux">Bordeaux</option>
     <option value="Lyon">Lyon</option>
     <option value="Strasbourg">Strasbourg</option>
-</select><br>
+</select><br><br>
 <input type="submit" value="recherche">
 </div>
 </body>

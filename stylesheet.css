@@ -1,18 +1,34 @@
+html{
+    height: 100%;
+    width: 100%;
+}
 header{
-    position: fixed;
+    color: orangered;
+    position: absolute;
     left: 43%;
     width: 50%;
 }
 body{
-    background-color: #6833FF;
+    background: linear-gradient(#6833FF,#660000);
     font-family: sans-serif;
 }
 .container{
+    color: orangered;
     position: absolute;
-    top:50%;
+    top:40%;
     left:40%;
     box-sizing: border-box;
-    background-color: aqua;
+    background-color: #4B0082;
     border-radius: 10px;
     padding: 20px;
+}
+.container .target a{
+    position: initial;
+}
+
+.container a{
+    color:#ff0000 ;
+    position: inherit;
+    text-align: center;
+    margin-left: 40%;
 }
