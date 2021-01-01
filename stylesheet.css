@@ -4,8 +4,10 @@ html{
 }
 .header{
     position: absolute;
-    left: 43%;
-    width: 50%;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
 }
 .header a{
     color: orangered;
@@ -17,23 +19,18 @@ body{
 .container{
     color: orangered;
     position: absolute;
+    width:500px;
     top:40%;
-    left:40%;
+    left:50%;
+    margin-left: -250px;
     box-sizing: border-box;
     background-color: #4B0082;
     border-radius: 10px;
     padding: 20px;
 }
-.container .target a{
-    position: inherit;
-    text-align: left;
-}
 
 .container a{
-    color:#ff0000 ;
-    position: inherit;
-    text-align: center;
-    
+    color:#ff0000 ; 
 }
 
 label{
