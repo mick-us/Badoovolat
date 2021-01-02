@@ -29,11 +29,11 @@ if(empty($nom)||empty($prenom)||empty($ville)||empty($email)/*||ereg($motif, $em
 else {
     print("<h2> Vos informations :<br></h2>");
     print("$nom<br>$prenom<br>$ville<br>$email<br>$categorie<br>$type<br>$annonce<br>");
-    echo'<br><a href="recherche.php">recherche</a>';
+    echo'<br><a href="recherche.php">recherche</a><br>';
 }
-/*$hote = 'localhost';
+$hote = 'localhost';
 $login = 'root';
-$pass = 'lesdbctr0bien';
+$pass='';
 $namedb = 'badoovolat';
 try {
     $connection = new PDO("mariadb:host=$hote;dbname=$namedb", $login, $pass);
@@ -43,7 +43,7 @@ try {
     $connection->exec($Sqlcode);
 } catch (PDOException $e) {
     echo 'echec in connection:' . $e->getMessage();
-}*/
+}
 ?> 
 </div>
 </div>
