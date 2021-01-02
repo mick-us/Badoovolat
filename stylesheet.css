@@ -10,14 +10,14 @@ html{
     text-align: center;
 }
 .header a{
-    color: orangered;
+    color: #FF8000;
 }
 body{
     background: linear-gradient(#6833FF,#660000);
     font-family: sans-serif;
 }
 .container{
-    color: orangered;
+    color: #FF8000;
     position: absolute;
     width:500px;
     top:40%;
@@ -26,11 +26,26 @@ body{
     box-sizing: border-box;
     background-color: #4B0082;
     border-radius: 10px;
+    border: 2px solid #FF8000;
     padding: 20px;
 }
 
 .container a{
-    color:#ff0000 ; 
+    color: #5decfc ; 
+}
+
+.container input, select, textarea {
+    background-color:#5decfc ; 
+    border-radius: 5px;
+    box-shadow: unset;
+}
+
+.container input[type="reset"],input[type="submit"]{
+    background-color:#5decfc ; 
+}
+
+.container h2{
+    color:#5decfc ; 
 }
 
 label{

@@ -24,7 +24,7 @@ $type=$_GET['type'];
 $annonce=$_GET['annonce'];
 if(empty($nom)||empty($prenom)||empty($ville)||empty($email)/*||ereg($motif, $email)==0*/||empty($categorie)||empty($type)||empty($annonce))
 {
-    echo'<h3>Champs invalides !</h3>Cliquez ici :<a href="ajout.php">Page d\'Inscription</a>';
+    echo'<h2>Champs invalides !</h2>Cliquez ici :<a href="ajout.php">Page d\'Inscription</a>';
 }
 else {
     print("<h2> Vos informations :<br></h2>");
