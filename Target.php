@@ -39,7 +39,7 @@ try {
     $connection = new PDO("mariadb:host=$hote;dbname=$namedb", $login, $pass);
     $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     echo 'success in connecting to database';
-    $Sqlcode="INSERT INTO Personne(nom,prenom,email,categorie,type,annonce) VALUES('$nom','$prenom','$email','$categorie','$type','$annonce')";
+    $Sqlcode="INSERT INTO Personne VALUES('$nom','$prenom','$email','$categorie','$type','$annonce')";
     $connection->exec($Sqlcode);
 } catch (PDOException $e) {
     echo 'echec in connection:' . $e->getMessage();

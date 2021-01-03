@@ -14,7 +14,7 @@
     </header>
 </div>
 <div class="container">
-    <form action="">
+    <form action="Result.php">
     <label for="categorie">Quel catégorie cherchez vous ?</label><br>
 <select id="categorie" name="categorie">
     <option value="">Choisir une option</option>

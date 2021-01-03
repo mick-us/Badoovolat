@@ -1,6 +1,7 @@
 CREATE DATABASE badoovolat;
-CREATE TABLE IF NOT EXISTS Personne(nom VARCHAR(40) NOT NULL, prenom VARCHAR(40) NOT NULL, email VARCHAR(40) NOT NULL PRIMARY KEY, categorie VARCHAR(40) NOT NULL, type VARCHAR(7) NOT NULL, annonce VARCHAR(1000) NOT NULL);
+CREATE TABLE IF NOT EXISTS Personne(nom VARCHAR(40) NOT NULL, prenom VARCHAR(40) NOT NULL, ville VARCHAR(40) NOT NULL, email VARCHAR(40) NOT NULL PRIMARY KEY, categorie VARCHAR(40) NOT NULL, type VARCHAR(7) NOT NULL, annonce VARCHAR(1000) NOT NULL);
 CREATE TABLE IF NOT EXISTS Job(id_job SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY, nom VARCHAR(40) NOT NULL);
+
 
 INSERT INTO Job VALUES(1, 'Garde');
 INSERT INTO Job VALUES(2, 'Entretien');
@@ -12,3 +13,25 @@ INSERT INTO Job VALUES(7, 'Festival');
 INSERT INTO Job VALUES(8, 'Echange de procedes');
 INSERT INTO Job VALUES(9, 'Covoiturage');
 INSERT INTO Job VALUES(10, 'Troc');
+
+INSERT INTO Personne VALUE('Dupont', 'Arthur', 'Limoges', 'arthur.dupont@gmail.com', 'Travaux', 'offre', 'Bonjour, je cherche de l aide pour des travaux. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Leroux', 'Martine', 'Limoges', 'martine.leroux@gmail.com', 'Menage', 'offre', 'Bonjour, je cherche de l aide pour des travaux. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Lemoine', 'Sarah', 'Limoges', 'sarah.lemoine@gmail.com', 'Garde', 'offre', 'Bonjour, je cherche de l aide pour garder des enfants. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Célaire', 'Jacques', 'Limoges', 'jacques.celaire@gmail.com', 'Entretien', 'offre', 'Bonjour, je cherche de l aide pour des travaux. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Menier', 'Marie', 'Limoges', 'marie.menier,@gmail.com', 'Accompagnement', 'offre', 'Bonjour, je cherche de l aide pour un accompagnement à la personne. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Renfort', 'Lézépinar', 'Limoges', 'lezepinar.renfort@gmail.com', 'Caritatif', 'offre', 'Bonjour, je cherche de l aide pour un evenement caritatif. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Pichon', 'Didier', 'Limoges', 'didier.pichon@gmail.com', 'Festival', 'offre', 'Bonjour, je cherche de l aide pour un festival. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Alemont', 'Paul', 'Limoges', 'paul.alemont@gmail.com', 'Echange de procedes', 'offre', 'Bonjour, je cherche de l aide pour des échanges de procedes. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Rtichaud', 'Lola', 'Limoges', 'lola.rtichaud@gmail.com', 'Covoiturage', 'offre', 'Bonjour, je cherche de l aide pour du covoiturage. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Tivier', 'Catherine', 'Limoges', 'catherine.tivier@gmail.com', 'Troc', 'offre', 'Bonjour, je propose du troc. contactez moi grâce a mon mail.');
+
+INSERT INTO Personne VALUE('Bellucci', 'Monica', 'Limoges', 'monica.bellucci@gmail.com', 'Travaux', 'demande', 'Bonjour, je propose mon aide pour des travaux. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Pitt', 'Brad', 'Limoges', 'brad.pitt@gmail.com', 'Menage', 'demande', 'Bonjour, je propose mon aide pour des travaux. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Stone', 'Emma', 'Limoges', 'emma.stone@gmail.com', 'Garde', 'demande', 'Bonjour, je propose mon aide pour garder des enfants. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Peter', 'Evan', 'Limoges', 'evan.peter@gmail.com', 'Entretien', 'demande', 'Bonjour, je propose mon aide pour des travaux. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Coupa', 'Irmène', 'Limoges', 'irmene.coupa@gmail.com', 'Accompagnement', 'demande', 'Bonjour, je propose mon aide pour un accompagnement à la personne. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Delajungle', 'George', 'Limoges', 'george.delajungle@gmail.com', 'Caritatif', 'demande', 'Bonjour, je propose mon aide pour un evenement caritatif. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Renard', 'Claire', 'Limoges', 'clairze.renard@gmail.com', 'Festival', 'demande', 'Bonjour, je propose mon aide pour un festival. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Frisou', 'Selma', 'Limoges', 'selma.frisou@gmail.com', 'Echange de procedes', 'demande', 'Bonjour, je propose mon aide pour des échanges de procedes. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Lacombe', 'Hillary', 'Limoges', 'hillary.lacombe@gmail.com', 'Covoiturage', 'demande', 'Bonjour, je propose mon aide pour du covoiturage. contactez moi grâce a mon mail.');
+INSERT INTO Personne VALUE('Petit', 'Fred', 'Limoges', 'fred.petit@gmail.com', 'Troc', 'demande', 'Bonjour, je propose du troc. contactez moi grâce a mon mail.');
