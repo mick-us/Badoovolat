@@ -13,7 +13,7 @@
     </div>
     <br/>
     <div class="container">
-    <form method="post" action="">
+    <form method="post" action="recherche.php">
         <label for="email">Identification :</label>
         <input type="text" name="email" placeholder="your email"/>
         <input type="submit" value="Log in"/>

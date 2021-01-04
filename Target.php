@@ -29,7 +29,8 @@ if(empty($nom)||empty($prenom)||empty($ville)||empty($email)/*||ereg($motif, $em
 else {
     print("<h2> Vos informations :<br></h2>");
     print("$nom<br>$prenom<br>$ville<br>$email<br>$categorie<br>$type<br>$annonce<br>");
-    echo'<br><a href="recherche.php">recherche</a><br>';
+    echo '<h2>Faites vos recherches :</h2>';
+    echo'<a href="recherche.php">cliquez ici !</a><br>';
     $hote = 'localhost';
     $login = 'root';
     $pass='';

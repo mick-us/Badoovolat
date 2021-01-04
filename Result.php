@@ -11,6 +11,8 @@
             <h1><a href="index.php"><img src="logo.png"><br>BADOOVOLAT</a></h1>
         </header>
     </div>
+    <?php
     
+    ?>
 </body>
 </html>
