@@ -46,21 +46,21 @@
     <label for="categorie">Quel catégorie cherchez vous ?</label><br>
 <select id="categorie" name="categorie">
     <option value="">Choisir une option</option>
-    <option value="garde">Garde</option>
-    <option value="entretien">Entretien</option>
-    <option value="travaux">Travaux</option>
-    <option value="accompagnement">Accompagnement</option>
-    <option value="menage">Ménage</option>
-    <option value="caritatif">Caritatif</option>
-    <option value="festival">festival</option>
-    <option value="echangeDeProcedes">Échange de procédés</option>
-    <option value="covoiturage">Covoiturage</option>
-    <option value="troc">Troc</option>
+    <option value="Garde">Garde</option>
+    <option value="Entretien">Entretien</option>
+    <option value="Travaux">Travaux</option>
+    <option value="Accompagnement">Accompagnement</option>
+    <option value="Menage">Ménage</option>
+    <option value="Caritatif">Caritatif</option>
+    <option value="Festival">festival</option>
+    <option value="EchangeDeProcedes">Échange de procédés</option>
+    <option value="Covoiturage">Covoiturage</option>
+    <option value="Troc">Troc</option>
 </select><br/><br>
 <label for="type">Est ce une offre ou une demande ?</label><br>
 <select id="type" name="type">
     <option value="">Choisir une option</option>
-    <option value="cherche">Cherche</option>
+    <option value="demande">Cherche</option>
     <option value="offre">Offre</option>
 </select><br/><br>
 <label for="ville">Où vous trouvez vous ?</label><br>

@@ -34,6 +34,13 @@ body{
     color: #5decfc ; 
 }
 
+.container table, td, tr, th{
+    border-width:3px;
+    border-style: solid;
+    border-color: #5decfc;
+    border-radius: 3px; 
+}
+
 .container input, select, textarea {
     background-color:#5decfc ; 
     border-radius: 5px;
